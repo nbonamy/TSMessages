@@ -536,7 +536,7 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
             BOOL isNavBarIsOpaque = !navigationController.navigationBar.isTranslucent && navigationController.navigationBar.alpha == 1;
 
             if (isNavBarIsHidden || isNavBarIsOpaque) {
-                topOffset = -30.f;
+                topOffset = -44.f;
             }
             backgroundFrame = UIEdgeInsetsInsetRect(backgroundFrame, UIEdgeInsetsMake(topOffset, 0.f, 0.f, 0.f));
         }
